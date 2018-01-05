@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+#head_div {
+	background: #FDF5E6;
+}
+
+#footer-copyright {
+	background: #FDF5E6;
+}
+
+#user_photo_button {
+	visibility: hidden;
+}
+
+#logined_div {
+	float: left;
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	display: none;
+}
+
+#user_info {
+	color: #575757;
+}
+
+#tips {
+	color: #575757;
+	font-size: 18px;
+}
+
+#logout_button {
+	float: left;
+	height: 100%;
+	overflow: hidden;
+}

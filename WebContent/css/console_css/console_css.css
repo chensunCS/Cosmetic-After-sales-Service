@@ -1,0 +1,11 @@
+body {
+    padding: 70px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline;
+}
