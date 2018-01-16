@@ -2,50 +2,50 @@ package util;
 
 public class Source {
 	
-	//¹ÜÀíÔ±µÄIDºÍÃÜÂë
-	public static String adminID = "fangwei2016111";
-	public static String adminPassword = "Qq680321";
+	//ç®¡ç†å‘˜çš„IDå’Œå¯†ç 
+	public static String adminID = "";
+	public static String adminPassword = "";
 	
-	//ÉÏ´«ÎÄ¼şµÄÂ·¾¶
+	//ä¸Šä¼ æ–‡ä»¶çš„è·¯å¾„
 	public static String uploadPath = "CosmeticRecord/WebContent/User_info";
-	//Êı¾İ¿âµÄÓÃ»§Ãû
-	public static String dbUserName = "root";
-	//Êı¾İ¿âµÄÃÜÂë
-	public static String password = "123456";
-	//ÏÂÔØexcelÎÄ¼şµÄÂ·¾¶
+	//æ•°æ®åº“çš„ç”¨æˆ·å
+	public static String dbUserName = "";
+	//æ•°æ®åº“çš„å¯†ç 
+	public static String password = "";
+	//ä¸‹è½½excelæ–‡ä»¶çš„è·¯å¾„
 	public static String excelPath = "C:/eclipse workspace/CosmeticRecord/WebContent/Excel_file";
-	//Bucket´æÔÚµÄÓòÃû
+	//Bucketå­˜åœ¨çš„åŸŸå
 	public static String domainPath = "http://cosmetic-record.oss-cn-shanghai.aliyuncs.com";
 	
-	//SQLµÄ»ù±¾×ÊÔ´
-	//Êı¾İ¿âµÄ±í
+	//SQLçš„åŸºæœ¬èµ„æº
+	//æ•°æ®åº“çš„è¡¨
 	public static String userInfoTable = "user_info";
 	public static String presentInfoTable = "present_info";
 	public static String previousPhotoTable = "previous_photo";
 	public static String presentPhotoTable = "present_photo";
-	//×Ô¶¨ÒåµÄ±í
+	//è‡ªå®šä¹‰çš„è¡¨
 	public static String registerInfoTable = "register_info";
 	public static String feedBackInfoTable = "feed_back_info";
-	//Ô­Éú±íµÄ±íÍ·
-	public static String[] userInfoTitle = {"ÓÃ»§ID", "ÓÃ»§Ãû", "ÓÃ»§µç»°", "ÓÃ»§ĞÔ±ğ", "ÓÃ»§ÄêÁä", "ÓÃ»§µØÖ·", "ÓÃ»§Æ¤·ôÊôĞÔ", "ÓÃ»§Æ¤·ôµÄÎÊÌâ", "ÓÃ»§Ä¿Ç°Ê¹ÓÃµÄ²úÆ·", "±¸×¢"};
-	public static String[] presentInfoTitle = {"ÓÃ»§ID", "¸ÃÌõ·´À¡¼ÇÂ¼µÄID", "ÓÃ»§µÄÊ¹ÓÃÈÕÆÚ", "ÓÃ»§Ä¿Ç°Ê¹ÓÃµÄ²úÆ·", "Ê¹ÓÃ²úÆ·ºóµÄ¸Ğ¾õ", "Ê¹ÓÃÖĞ²úÉúµÄÎÊÌâ", "±¸×¢"};
-	public static String[] previousPhotoTitle = {"ÓÃ»§ID", "×¢²áÊ±Ìá½»Í¼Æ¬µÄID", "×¢²áÈÕÆÚ", "Í¼Æ¬ÎÄ¼şÃû", "Í¼Æ¬ÎÄ¼şÂ·¾¶"};
-	public static String[] presentPhotoTitle = {"ÓÃ»§ID", "ÌîĞ´·´À¡Ê±Ìá½»Í¼Æ¬µÄID", "ÉÏ´«ÈÕÆÚ", "Í¼Æ¬ÎÄ¼şÃû", "Í¼Æ¬ÎÄ¼şÂ·¾¶"};
-	//×Ô¶¨Òå±í¸ñµÄ±íÍ·
+	//åŸç”Ÿè¡¨çš„è¡¨å¤´
+	public static String[] userInfoTitle = {"ç”¨æˆ·ID", "ç”¨æˆ·å", "ç”¨æˆ·ç”µè¯", "ç”¨æˆ·æ€§åˆ«", "ç”¨æˆ·å¹´é¾„", "ç”¨æˆ·åœ°å€", "ç”¨æˆ·çš®è‚¤å±æ€§", "ç”¨æˆ·çš®è‚¤çš„é—®é¢˜", "ç”¨æˆ·ç›®å‰ä½¿ç”¨çš„äº§å“", "å¤‡æ³¨"};
+	public static String[] presentInfoTitle = {"ç”¨æˆ·ID", "è¯¥æ¡åé¦ˆè®°å½•çš„ID", "ç”¨æˆ·çš„ä½¿ç”¨æ—¥æœŸ", "ç”¨æˆ·ç›®å‰ä½¿ç”¨çš„äº§å“", "ä½¿ç”¨äº§å“åçš„æ„Ÿè§‰", "ä½¿ç”¨ä¸­äº§ç”Ÿçš„é—®é¢˜", "å¤‡æ³¨"};
+	public static String[] previousPhotoTitle = {"ç”¨æˆ·ID", "æ³¨å†Œæ—¶æäº¤å›¾ç‰‡çš„ID", "æ³¨å†Œæ—¥æœŸ", "å›¾ç‰‡æ–‡ä»¶å", "å›¾ç‰‡æ–‡ä»¶è·¯å¾„"};
+	public static String[] presentPhotoTitle = {"ç”¨æˆ·ID", "å¡«å†™åé¦ˆæ—¶æäº¤å›¾ç‰‡çš„ID", "ä¸Šä¼ æ—¥æœŸ", "å›¾ç‰‡æ–‡ä»¶å", "å›¾ç‰‡æ–‡ä»¶è·¯å¾„"};
+	//è‡ªå®šä¹‰è¡¨æ ¼çš„è¡¨å¤´
 	public static String[] registerInfoTitle = {
-		"ÓÃ»§ID", "ÓÃ»§Ãû", "ÓÃ»§µç»°", "ÓÃ»§ĞÔ±ğ", "ÓÃ»§ÄêÁä", "ÓÃ»§µØÖ·", "ÓÃ»§Æ¤·ôÊôĞÔ", "ÓÃ»§Æ¤·ôµÄÎÊÌâ", "ÓÃ»§Ä¿Ç°Ê¹ÓÃµÄ²úÆ·", "±¸×¢"
-		, "×¢²áÊ±Ìá½»Í¼Æ¬µÄID", "×¢²áÈÕÆÚ", "Í¼Æ¬ÎÄ¼şÃû", "Í¼Æ¬ÎÄ¼şÂ·¾¶"
+		"ç”¨æˆ·ID", "ç”¨æˆ·å", "ç”¨æˆ·ç”µè¯", "ç”¨æˆ·æ€§åˆ«", "ç”¨æˆ·å¹´é¾„", "ç”¨æˆ·åœ°å€", "ç”¨æˆ·çš®è‚¤å±æ€§", "ç”¨æˆ·çš®è‚¤çš„é—®é¢˜", "ç”¨æˆ·ç›®å‰ä½¿ç”¨çš„äº§å“", "å¤‡æ³¨"
+		, "æ³¨å†Œæ—¶æäº¤å›¾ç‰‡çš„ID", "æ³¨å†Œæ—¥æœŸ", "å›¾ç‰‡æ–‡ä»¶å", "å›¾ç‰‡æ–‡ä»¶è·¯å¾„"
 	};
 	public static String[] feedbackInfoTitle = {
-		"ÓÃ»§ID", "¸ÃÌõ·´À¡¼ÇÂ¼µÄID", "ÓÃ»§µÄÊ¹ÓÃÈÕÆÚ", "ÓÃ»§Ä¿Ç°Ê¹ÓÃµÄ²úÆ·", "Ê¹ÓÃ²úÆ·ºóµÄ¸Ğ¾õ", "Ê¹ÓÃÖĞ²úÉúµÄÎÊÌâ", "±¸×¢"
-		,"ÓÃ»§ID", "ÌîĞ´·´À¡Ê±Ìá½»Í¼Æ¬µÄID", "ÉÏ´«ÈÕÆÚ", "Í¼Æ¬ÎÄ¼şÃû", "Í¼Æ¬ÎÄ¼şÂ·¾¶"
+		"ç”¨æˆ·ID", "è¯¥æ¡åé¦ˆè®°å½•çš„ID", "ç”¨æˆ·çš„ä½¿ç”¨æ—¥æœŸ", "ç”¨æˆ·ç›®å‰ä½¿ç”¨çš„äº§å“", "ä½¿ç”¨äº§å“åçš„æ„Ÿè§‰", "ä½¿ç”¨ä¸­äº§ç”Ÿçš„é—®é¢˜", "å¤‡æ³¨"
+		,"ç”¨æˆ·ID", "å¡«å†™åé¦ˆæ—¶æäº¤å›¾ç‰‡çš„ID", "ä¸Šä¼ æ—¥æœŸ", "å›¾ç‰‡æ–‡ä»¶å", "å›¾ç‰‡æ–‡ä»¶è·¯å¾„"
 	};
-	//»ù±¾²éÑ¯Óï¾ä
+	//åŸºæœ¬æŸ¥è¯¢è¯­å¥
 	public static String queryUserInfo = "select * from user_info";
 	public static String queryPresentInfo = "select * from present_info";
 	public static String queryPreviousPhoto = "select * from previous_photo";
 	public static String queryPresentPhoto = "select * from present_photo";
-	//ÌØÊâ²éÑ¯Óï¾ä
+	//ç‰¹æ®ŠæŸ¥è¯¢è¯­å¥
 	public static String queryRegisterInfo = "select * from user_info join previous_photo as register_info using (user_id)";
 	public static String queryFeedBackInfo = "select * from present_info join present_photo as feed_back_info using (user_id)";
 }
